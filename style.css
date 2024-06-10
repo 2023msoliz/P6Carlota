@@ -1,0 +1,28 @@
+.color-blend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .color-1,
+  .color-2,
+  .color-3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .color-1 {
+    background-color: #338aff; /* Blau */
+  }
+  
+  .color-2 {
+    background-color: #ff33bb; /* Rosa */
+  }
+  
+  .color-3 {
+    background-color: #ffcc33; /* Groc */
+    mix-blend-mode: multiply; /* Mode de barreja */
+  }
+  
